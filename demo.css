@@ -1,0 +1,59 @@
+html,
+body {
+    background-color: #191919;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+section {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: #2e2e2e;
+    letter-spacing: 1%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    /*color: #e2e0e0;*/
+    color: #2e2e2e;
+    letter-spacing: 1%
+}
+
+p {
+    text-align: center;
+    font-size: 100%;
+    color: #666666;
+    letter-spacing: 1%;
+    padding: 0 10%;
+}
+
+
+/*start parallax*/
+
+.parallax-group {
+    background: url(galaxy.jpeg) repeat fixed 100%;
+}
+
+.parallax-inner {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+
+/*end parallax*/
